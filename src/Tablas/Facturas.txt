@@ -1,0 +1,4 @@
+001-002-00001234,1.85,1,consumidor final,01-01-2020,silicon transparente Abro,Guyaquil
+001-002-00001235,5.25,1,consumidor final,02-01-2020,silicon gris ultra Abro,Guyaquil
+001-002-00001236,2.00,1,consumidor final,03-01-2020,1/8 pintura esmalte latina azul,Guyaquil
+001-002-00001237,0.85,1,consumidor final,04-01-2020,1/8 pintura latex latina rosado,Guyaquil

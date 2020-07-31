@@ -1,0 +1,186 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07/12/2019, 6:15:27
+    Author     : xavic
+*/
+
+.logIn_lbl{
+    -fx-font-family: 'Roboto';
+    -fx-padding: 10;
+    -fx-text-fill: #2196f3;
+    -fx-text-alignment: left;
+    -fx-font-size: 30;
+}
+
+.logIn_input{
+    -fx-background-color: null;
+    -fx-text-fill: #C0C0C0;
+    -fx-font-size: 20;
+    -fx-font-weight: 200;
+    -fx-border-color: linear-gradient(#87CEEB, #2196f3);
+    -fx-border-radius: 5;
+    -fx-padding: 10;
+}
+
+.logIn_input:focused{
+    -fx-border-color: linear-gradient(#FFD700, #DAA520);
+}
+
+.logIn_btn{
+    -fx-font-family: 'Roboto';
+    -fx-text-fill: white;
+    -fx-font-size: 20;
+    -fx-background-color: #2196f3;
+    -fx-border-color: null;
+    -fx-padding: 20;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+}
+
+.logIn_btn:hover{
+    -fx-background-color: #87CEEB;
+}
+
+.img-container{
+    -fx-padding: 2em;
+}
+
+.caption_cont{
+/*    -fx-background-color:#5c6bc0;*/
+    -fx-background-color: #2196f3;
+}
+
+
+.caption_cont > Label{
+    -fx-text-fill: #fff;
+}
+
+.caption_cont > Label,
+
+.title_lbl{
+    -fx-font-family: 'Roboto';
+    -fx-padding: 10px;
+    -fx-font-size: 22px;
+    -fx-font-weight: 600;
+}
+
+.cont{
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.24), 8, 0.0, 0.0, 0.0);
+    -fx-background-color:#fff;
+    -fx-cursor: hand;
+}
+
+.cont:hover{
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.50), 8, 0.0, 0.0, 0.0);
+}
+
+.back_cont{
+    -fx-border-radius: 3px;
+    -fx-padding:.75em;
+    -fx-background-color: #2196f3;
+    -fx-cursor: hand;
+}
+
+.back_cont:hover{
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.24), 5, 0.0, 0.0, 0.0);
+}
+
+.title_lbl{
+/*    -fx-text-fill: #2196f3;*/
+    -fx-text-fill: #fff;
+}
+
+.header{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.24), 10, 0, 0, 1);
+    -fx-background-color: #2196f3;
+    -fx-fill-text:#fff;
+}
+
+.grid_components{
+    -fx-padding: 3;
+    -fx-background-color: #E6E6FA;
+    -fx-border-color: white;
+}
+
+.grid_components:hover{
+    -fx-cursor: hand;
+}
+
+.grid_lbl{
+    -fx-font-family: 'Roboto';
+    -fx-font-size: 18px;
+    -fx-text-fill: black;
+}
+
+.title_cont{
+    -fx-padding: 5;
+    -fx-background-color: #2196f3;
+    -fx-border-color: white;
+}
+
+.add_btn{
+    -fx-cursor: hand;
+}
+
+.add_btn:hover{
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, .24), 5, 0.0, 0.0, 0.0);
+}
+
+.cont_view{
+    -fx-font-family: 'Roboto';
+    -fx-font-size: 40px;
+    -fx-padding: 20px;
+    -fx-alignment: center;
+    -fx-spacing: 20px;
+}
+
+.save_btn{
+    -fx-padding: 10px;
+    -fx-background-color: #2196f3;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-border-radius: 5%;
+    -fx-cursor: hand;
+}
+
+.save_btn:hover{
+    -fx-background-color: #87CEEB;
+}
+
+.grid_view{
+    -fx-vgap: 10px;
+    -fx-hgap: 10px;
+    -fx-alignment: center;  
+}
+
+.grid_lbl_save{
+    -fx-padding: 10;
+    -fx-text-fill: #2196f3;
+    -fx-text-alignment: left;
+    -fx-font-size: 20;     
+    -fx-alignment: center;
+}
+
+.grid_input{
+    -fx-background-color: null;
+    -fx-text-fill: #C0C0C0;
+    -fx-font-size: 20;
+    -fx-font-weight: 200;
+    -fx-border-color: linear-gradient(#87CEEB, #2196f3);
+    -fx-border-radius: 5;
+    -fx-padding: 10;
+    -fx-min-width: 400px;
+}
+
+.grid_input:focused{
+    -fx-border-color: linear-gradient(#FFD700, #DAA520);
+}
+
+.table_detalle{
+    -fx-font-size: 20px;
+}
+
